@@ -13,7 +13,7 @@ GUIでのインタラクティブ解析に加え, Python APIによる自動化�
 
 - 公式サイト: [binary.ninja](https://binary.ninja/)
 
-特徴として, 多段階のILを持つことが挙げられます. [IDA Pro](./IDA.md)や[Ghidra](./ghidra.md)が単一の単一の中間表現しか持たないのに対して, Binary Ninjaは多段階のILを持っているため, 異なるILを使って抽象度を変えた解析を行うことができます. 
+特徴として, 多段階のILを持つことが挙げられます. [IDA Pro](./ida.md)や[Ghidra](./ghidra.md)が単一の単一の中間表現しか持たないのに対して, Binary Ninjaは多段階のILを持っているため, 異なるILを使って抽象度を変えた解析を行うことができます. 
 これらのILはBNIL(Binary Ninja Intermediate Language)と総称され, 公式ドキュメントで詳しい解説を読むことができます. 
 
 - [BNIL Documentation](https://docs.binary.ninja/dev/bnil-overview.html)
