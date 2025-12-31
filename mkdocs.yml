@@ -1,0 +1,47 @@
+site_name: Decompiler Dev Memo
+site_url: https://KikyoNanakusa.github.io/decompiler_dev
+
+theme:
+  name: material
+  language: ja
+  features: 
+    - navigation.expand
+
+plugins:
+  - tags
+
+nav: 
+  - Home: index.md
+  - Terms:
+    - CFG: terms/CFG.md
+    - ICFG: terms/ICFG.md
+    - dominator: terms/dominator.md
+    - backedge: terms/backedge.md
+  - Misc:
+    - 外部の有用なウェブサイト: misc/外部の有用なウェブサイト.md
+  - Applications:
+    - Ghidra: applications/ghidra.md
+    - IDA: applications/ida.md
+    - Binary Ninja: applications/binary_ninja.md
+    # - JEB Decompiler: applications/jeb.md
+  - Papers:
+    - SAILR: papers/SAILR.md
+    - Phoenix: papers/Phoenix.md
+    - DREAM: papers/DREAM.md
+
+markdown_extensions:
+  - footnotes
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript: 
+  - js/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://x.com/77777kusa
+      name: KikyoNanakusa on X
